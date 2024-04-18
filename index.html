@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/port-logo.svg" type="image/x-icon">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./img/port-logo.svg" alt="Logo de estrela" class="logo-img">
+            <h3 class="menu-title" id="inicio"><a href="#inicio">Ana Lima</a></h3>
+        </div>
+
+        <!-- Menu principal -->
+        <nav>
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="#sobremim">Sobre mim</a></li>
+                <li class="menu-list-item"><a href="#skills">Skills</a></li>
+                <li class="menu-list-item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu-list-item"><a href="#formacao">Formação</a></li>
+                <li class="menu-list-item"><a href="#xp">Experiência</a></li>
+                <li class="menu-list-item"><a href="#contato">contato@analima.com</a></li>
+            </ul>
+            <li class="menu-list-item-c"><a href="#contato">contato@analima.com</a></li>
+        </nav>
+    </header>
+
+        <main>
+            <section class="profile">
+                <!-- Apresemtação pessoal -->
+                <img src="./img/port-foto.svg" alt="Foto de perfil" class="profile-img">
+                <div class="profile-container">
+                    <h2 class="profile-title">
+                        Olá, meu nome é Ana Lima e construo páginas web
+                    </h2>
+                    <br>
+                    <p class="profile-paragraph">
+                        Atualmente estou em transição de carreira e participando do projeto Oracle ONE na Alura para a formação em Front-End para conseguir uma nova oportunidade no mercado de trabalho.
+                    </p>
+
+                    <!-- Redes sociais -->
+                    <ul class="profile-network">
+                        <!-- Github -->
+                        <li class="profile-network-item">
+                            <a href="https://github.com/analucilima">Github</a>
+                            <img src="./img/port-seta.svg" alt="Link para o Github">
+                        </li>
+                        <!-- Linkedin -->
+                        <li class="profile-network-item">
+                            <a href="https://linkedin.com/in/ana-lima-dev">Linkedin</a>
+                            <img src="./img/port-seta.svg" alt="Link para o Linkedin">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Sobre mim -->
+            <section class="about" id="sobremim">
+                <div class="about-container">
+                    <h3 class="about-title">Sobre mim</h3>
+                    <p class="about-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
+                    </p>
+                    <img class="assinatura" src="./img/port-assinatura.svg" alt="Assinatura">
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="skills" id="skills">
+                <h3 class="skills-title">Skills</h3>
+                <div class="skills-line">
+                    <!-- HTML -->
+                    <div>
+                        <ul class="skills-box">
+                            <li class="skills-img"><img src="./img/port-html.svg" alt="Logo HTML 5"></li>
+                            <li class="skills-name">HTML 5</li>
+                        </ul>
+                    </div>
+
+                    <!-- CSS -->
+                    <div>
+                        <ul class="skills-box">
+                            <li class="skills-img"><img src="./img/port-css.svg" alt="Logo CSS 3"></li>
+                            <li class="skills-name">CSS 3</li>
+                        </ul>
+                    </div>
+
+                    <!-- Javascript -->
+                    <div>
+                        <ul class="skills-box">
+                            <li class="skills-img"><img src="./img/port-js.svg" alt="Logo Javascript"></li>
+                            <li class="skills-name">Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hobbies -->
+            <section class="hobbies" id="hobbies">
+                <h3 class="hobbies-title">Hobbies</h3>
+                <div class="hobbies-line">
+                    <!-- Música -->
+                    <div>
+                        <ul class="hobbies-box">
+                            <li class="hobbies-img"><img src="./img/port-fone.svg" alt="Fone de música"></li>
+                            <li class="hobbies-name">Ouvir música</li>
+                        </ul>
+                    </div>
+
+                    <!-- Filmes -->
+                    <div>
+                        <ul class="hobbies-box">
+                            <li class="hobbies-img"><img src="./img/port-tv.svg" alt="Televisão"></li>
+                            <li class="hobbies-name">Assistir filmes</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cozinhar -->
+                    <div>
+                        <ul class="hobbies-box">
+                            <li class="hobbies-img"><img src="./img/port-cozinha.svg" alt="Talheres"></li>
+                            <li class="hobbies-name">Cozinhar</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Educação -->
+            <section class="education" id="formacao">
+                <div class="education-container">
+                    <h2 class="education-title">Formação acadêmica</h2>
+                    <div class="education-courses">
+                        <div class="education-course-card">
+                            <img src="./img/port-alura.svg" alt="Logo alura">
+                            <h4>Formação Front-End</h4>
+                            <br>
+                            <span>2024 - Alura</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experiência -->
+            <section class="experience" id="xp">
+                <h2 class="experience-title">Experiência Profissional</h2>
+                <div class="experience-card">
+                    <img src="./img/port-decodificador.svg" alt="Decodificador de texto Alura">
+                    <div class="experience-info">
+                        <h2>Decodificador de texto</h2>
+                        <h3>Challenge Alura Codificador</h3>
+                        <div class="experience-description">
+                            <button type="button" class="btn-rep" onclick="window.location.href = 'https://github.com/analucilima/challengeT6-decodificador-de-texto-js'">Repositório</button>
+                            <button type="button" class="btn-demo" onclick="window.location.href = 'https://analucilima.github.io/challengeT6-decodificador-de-texto-js/'">Ver demo</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Formulário de contato -->
+            <section class="contact" id="contato">
+                <div class="contact-container">
+                    <img src="./img/port-contato.svg" alt="Contato">
+                    <div class="contact-info">
+                        <h2>Contato</h2>
+                        <p>Quer entrar em contato comigo?</p>
+                        <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+
+                        <form id="contact-form">
+                            <input type="text" class="contact-input" placeholder="Nome" name="nome">
+                            <input type="email" class="contact-input" placeholder="E-mail" name="email">
+                            <input type="text" class="contact-input" placeholder="Assunto" name="assunto">
+                            <textarea class="contact-textarea" cols="40" rows="5" placeholder="Mensagem"  name="mensagem"></textarea>
+                        </form>
+                        <button type="button" class="btn-enviar" id="btn-enviar">Enviar mensagem</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rodapé -->
+            <footer>
+                <p>Desenvolvido por Ana Lima - 2024</p>
+            </footer>
+        </main>
+</body>
+</html>
